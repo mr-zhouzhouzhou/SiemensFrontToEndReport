@@ -1,0 +1,58 @@
+body,html{
+	background: #fff;
+	font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+h1{
+	text-align: center;
+}
+p{	
+	word-break:normal;
+	white-space:pre-warp;
+	word-wrapL:break-word;
+	text-indent: 20px;
+}
+
+
+.fristbody{
+	overflow-x: hidden;
+	position: relative;
+	width: auto;
+	height: 100%;
+	padding: 0 10%;
+}
+.secondDiv{
+	
+}
+.thirdDiv{
+	padding: 0 0 0 20px;
+}
+.thirdDiv p{
+	text-indent: 20px;
+}
+.fourthDiv{
+	padding: 0 0 0 20px;
+}
+.fourthDiv p{
+	text-indent: 20px;
+}
+.thirdDiv img{
+	
+}
+.imgdiv{
+	  width: 1500px;
+      height: auto;
+      display: table-cell; /*主要是这个属性*/
+      vertical-align: middle;
+      text-align: center;
+      
+}
+img{
+	
+	width: auto;
+	max-width: 700px;
+    min-height: 150px;
+    margin: 10px 0;
+}
